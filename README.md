@@ -3,7 +3,7 @@
 
 - TableHeaderView高度自适应
 
-<img src="https://github.com/dabenliu/UITableHeaderViewAutoLayout/blob/main/ScreenShot2021-08-28%2022.18.01.gif" alt="ScreenShot2021-08-28 22.18.01" style="zoom:10%;" />
+<img src="https://github.com/dabenliu/UITableHeaderViewAutoLayout/blob/main/ScreenShot2021-08-28%2022.18.01.gif" width = 150>
 
 ### 关键代码
 
