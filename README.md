@@ -4,7 +4,7 @@
 
 - TableHeaderView高度自适应
   
-  <img src="https://github.com/dabenliu/UITableHeaderViewAutoLayout/blob/main/ScreenShot2021-08-28%2022.18.01.gif" width="200px">
+  <img src="https://github.com/dabenliu/UITableHeaderViewAutoLayout/blob/main/ScreenShot2021-08-28.gif" width="200px">
 
 ### 关键代码:
 
