@@ -1,10 +1,11 @@
 # UITableHeaderViewAutoLayout
+
 ### 应用：
 
 - TableHeaderView高度自适应
+  
+  <img src="https://github.com/dabenliu/UITableHeaderViewAutoLayout/blob/main/ScreenShot2021-08-28%2022.18.01.gif" width="200px">
 
-  <img src="/Users/Mac/Documents/未命名文件夹/ScreenShot2021-08-28 22.18.01.gif" alt="ScreenShot2021-08-28 22.18.01" style="zoom:50%;" />
-=======
 ### 关键代码:
 
 - 给header约束宽度，才能自适应高度
