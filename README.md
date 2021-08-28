@@ -3,7 +3,7 @@
 
 - TableHeaderView高度自适应
 
-  ![ScreenShot2021-08-28 22.18.01](/Users/Mac/Documents/未命名文件夹/ScreenShot2021-08-28 22.18.01.gif)
+  <img src="/Users/Mac/Documents/未命名文件夹/ScreenShot2021-08-28 22.18.01.gif" alt="ScreenShot2021-08-28 22.18.01" style="zoom:50%;" />
 
 ### 关键代码
 
