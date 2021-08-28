@@ -9,7 +9,7 @@
 
 - 给header约束宽度，才能自适应高度
 
-```
+```objective-c
 - (void)didMoveToSuperview {
 	[super didMoveToSuperview];
 	if (self.superview) {
@@ -29,10 +29,13 @@
 
 - 更新tableview布局，修改完内容后需要调用
 
-```(void)updateLayout {
+```objective-c
 - (void)updateLayout {
 	UITableView *tableView = (UITableView *)self.superview;
 	[tableView beginUpdates];
 	[tableView layoutIfNeeded];
 	[tableView endUpdates];
 }
+```
+
+​	
