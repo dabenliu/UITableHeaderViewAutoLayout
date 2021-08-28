@@ -4,11 +4,12 @@
 - TableHeaderView高度自适应
 
   <img src="/Users/Mac/Documents/未命名文件夹/ScreenShot2021-08-28 22.18.01.gif" alt="ScreenShot2021-08-28 22.18.01" style="zoom:50%;" />
+=======
+### 关键代码:
 
-### 关键代码
+- 给header约束宽度，才能自适应高度
 
 ```
-// 给header约束宽度，才能自适应高度
 - (void)didMoveToSuperview {
 	[super didMoveToSuperview];
 	if (self.superview) {
@@ -24,13 +25,14 @@
 		[self updateLayout];
 	}
 }
+```
 
-// 更新tableview布局，修改完内容后需要调用
+- 更新tableview布局，修改完内容后需要调用
+
+```(void)updateLayout {
 - (void)updateLayout {
 	UITableView *tableView = (UITableView *)self.superview;
 	[tableView beginUpdates];
 	[tableView layoutIfNeeded];
 	[tableView endUpdates];
 }
-```
-
